@@ -1,0 +1,9 @@
+graph LR
+A[Customer Order (Phone/Fax/Email)] --> B{Manual Data Entry}
+B --> C{Inventory Check (Manual)}
+C --> D{Packing Slip & Pick List (Manual)}
+D --> E{Picking (Manual)}
+E --> F{Packing (Manual)}
+F --> G{Shipping Label Creation (Manual)}
+G --> H{Ship Order}
+H --> I{Customer Receives Order}
